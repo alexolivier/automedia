@@ -1,0 +1,30 @@
+{
+  "name": "automedia",
+  "version": "0.0.0",
+  "description": "Auto YouTube and Image Grabber",
+  "homepage": "http://olivierdigital.com",
+  "bugs": "https://github.com/alexolivier/automedia/issues",
+  "author": {
+    "name": "Alex Olivier",
+    "email": "alex@olivierdigital.com",
+    "url": "http://alexolivier.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexolivier/automedia"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  },
+  "dependencies": {
+    "jsdom":"latest",
+    "request":"latest"    
+  }
+}
